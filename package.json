@@ -1,4 +1,17 @@
 {
+  "name": "snowpack-tailwindcss-firebase",
+  "version": "1.0.0",
+  "author": {
+    "name": "Aldair Sanchez",
+    "email": "aldaprojects@hotmail.com"
+  },
+  "keywords": [
+    "template",
+    "snowpack",
+    "tailwindcss",
+    "firebase",
+    "csa-template"
+  ],
   "scripts": {
     "start": "snowpack build --watch --hmr",
     "build": "snowpack build"

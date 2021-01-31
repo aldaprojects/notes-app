@@ -5,6 +5,7 @@
     "name": "Aldair Sanchez",
     "email": "aldaprojects@hotmail.com"
   },
+  "license": "MIT",
   "keywords": [
     "template",
     "snowpack",

@@ -1,18 +1,11 @@
 {
-  "name": "snowpack-tailwind-firebase",
+  "name": "notes-app",
   "version": "1.0.2",
   "author": {
     "name": "Aldair Sanchez",
     "email": "aldaprojects@hotmail.com"
   },
   "license": "MIT",
-  "keywords": [
-    "template",
-    "snowpack",
-    "tailwindcss",
-    "firebase",
-    "csa-template"
-  ],
   "scripts": {
     "start": "snowpack build --watch --hmr",
     "build": "snowpack build"

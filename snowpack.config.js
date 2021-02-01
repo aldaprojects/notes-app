@@ -22,6 +22,7 @@ module.exports = {
   },
   devOptions: {
     /* ... */
+    
   },
   buildOptions: {
     /* ... */

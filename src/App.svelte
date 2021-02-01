@@ -1,12 +1,6 @@
 <script>
-  import {onMount} from 'svelte';
-  let count = 0;
-  onMount(() => {
-    const interval = setInterval(() => count++, 1000);
-    return () => {
-      clearInterval(interval);
-    };
-  });
+  import Notes from "./components/Notes.svelte";
+
 </script>
 
 <style global lang="postcss">
@@ -15,15 +9,13 @@
   @tailwind utilities;
 </style>
 
-<div class="App">
-  <header class="App-header">
-    <img src="/logo.svg" class="App-logo" alt="logo" />
-    <p>Edit <code>src/App.svelte</code> and save to reload.</p>
-    <p>Page has been open for <code>{count}</code> seconds.</p>
-    <p>
-      <a class="App-link" href="https://svelte.dev" target="_blank" rel="noopener noreferrer">
-        Learn Svelte
-      </a>
-    </p>
-  </header>
+<div class="h-screen flex flex-col justify-center items-center">
+  <div class="h-5/6 w-screen flex border-gray-50 border shadow-sm">
+    <div class="h-full w-1/3 border-r p-2 border-gray-100">
+      <Notes />
+    </div>
+    <div class="h-full w-2/3">
+      hola
+    </div>
+  </div>
 </div>
